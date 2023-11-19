@@ -1,0 +1,95 @@
+.plans {
+  height: 700px;
+  background: rgb(9, 22, 212);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  width: 90%;
+  text-align: center;
+  margin: 80px 0 30px 0;
+  font-size: 45px;
+}
+
+.plans-outer {
+  display: flex;
+  width: 88%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.plan {
+  width: 27%;
+  padding: 15px 15px 0 15px;
+  border-radius: 10px;
+  height: 390px;
+}
+
+.plan h3 {
+  color: rgb(35, 35, 35);
+  margin-bottom: -10px;
+}
+
+.plan h2 {
+  color: rgb(35, 35, 35);
+  font-style: italic;
+}
+
+.plan-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.plan-button button {
+  height: 35px;
+  width: 75%;
+  margin: 10px 0;
+  border-radius: 5px;
+  border:  2px solid rgb(35, 35, 35);
+  background: rgb(11, 222, 11);
+  color: rgb(35, 35, 35);
+  font-size: 16px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.plan-button button:hover {
+  background: rgb(184, 218, 15);
+} 
+
+.plan h4 {
+  color: rgb(35, 35, 35);
+  font-size: 14px;
+}
+
+.plan-icons {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.plan-icons .fa {
+  color: rgb(130, 130, 130);
+}
+
+.plan h5 {
+  color: rgb(11, 118, 11);
+}
+
+.plan p {
+  font-size: 11px;
+  color: rgb(35, 35, 35);
+  margin: 10px 0;
+}
+
+.plan .fa-check {
+  color: rgb(11, 118, 11);
+  margin-right: 4px;
+}
+
+
